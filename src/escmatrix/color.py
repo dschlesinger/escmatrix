@@ -169,3 +169,6 @@ class ColorText:
         def escape(self) -> str:
 
             return hex_to_escape(self.hex_code)
+        
+BackgroundHandler = ColorBackground.CustomHex | ColorBackground.HexColor
+TextHandler = ColorText.EscapeColor | ColorText.CustomHex | ColorText.HexColor

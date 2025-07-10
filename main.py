@@ -1,7 +1,7 @@
-from escmatrix.color import HexCode
+from escmatrix import HexColor
 
 def main():
-    print("Hello from escmatrix!")
+    HexColor.BLUE("Hello from escmatrix!")
 
 
 if __name__ == "__main__":
