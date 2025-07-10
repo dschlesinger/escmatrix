@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "cmatrix alternative with more features"
 authors = [{ name = "Denali Schlesinger", email = "dsch28@bu.edu" }]
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "pydantic>=2.10.6",
 ]
