@@ -9,5 +9,5 @@
       "version": "3.8"
     }
   },
-  "postCreateCommand": "pip install -e ."
+  "postCreateCommand": ""
 }
