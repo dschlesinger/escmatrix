@@ -1,3 +1,5 @@
+from escmatrix.color import HexCode
+
 def main():
     print("Hello from escmatrix!")
 
